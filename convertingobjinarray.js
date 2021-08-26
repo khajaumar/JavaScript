@@ -8,5 +8,5 @@ const obj = {
 // const newArr = keys.map((key) => obj[key]);
 // console.log(newArr);
 
-const arr = Object.entries(obj);
+const arr = Object.values(obj);
 console.log(arr);
